@@ -1,0 +1,28 @@
+body {
+    background-color: #1d1e22;
+    color: #fff;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.cool-link {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #FF4500;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
