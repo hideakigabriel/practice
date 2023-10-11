@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .technologies-icon-cards {
+    @apply flex flex-col justify-around gap-2 items-center;
+  }
+  
+  .technologies-icon-img {
+    @apply w-[180px];
+  }
+  
+  .technologies-icon-cards-description {
+    @apply text-xs tracking-[6px];
+  }  
+}
